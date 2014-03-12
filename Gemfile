@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'builder', '2.1.2'
+gem 'builder', '~>3.2.2'
 
 if RUBY_VERSION.start_with?('1.8')
   gem 'libxml-ruby', '1.1.3'
